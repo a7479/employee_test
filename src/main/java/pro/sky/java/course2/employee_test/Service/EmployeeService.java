@@ -1,12 +1,13 @@
-package pro.sky.java.course2.employee_test.service;
+package pro.sky.java.course2.employee_test.Service;
 
 
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
-import pro.sky.employee_stream.Employee;
-import pro.sky.employee_stream.Exception.EmployeeAlreadyAddedException;
-import pro.sky.employee_stream.Exception.EmployeeNotFoundException;
-import pro.sky.employee_stream.Exception.InvalidInputException;
+import pro.sky.java.course2.employee_test.Employee;
+import pro.sky.java.course2.employee_test.Exception.EmployeeAlreadyAddedException;
+import pro.sky.java.course2.employee_test.Exception.EmployeeNotFoundException;
+import pro.sky.java.course2.employee_test.Exception.InvalidInputException;
+
 
 import java.util.ArrayList;
 import java.util.Collection;
